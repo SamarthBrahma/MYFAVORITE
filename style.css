@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(#40c4ff 0%, #f50057 100%);
+
+  background-repeat: no-repeat;
+}
+img {
+  border-radius: 50%;
+}
+#wl {
+  text-decoration-color: yellowgreen;
+}
+.menu {
+  list-style: none;
+  font-family: cursive;
+  float: right;
+  top: 15px;
+  right: 30px;
+  display: block;
+  cursor: pointer;
+}
+.link {
+  display: inline;
+  padding: 10px 9px;
+  color: aqua;
+}
+.link:hover {
+  background-color: fuchsia;
+}
+html {
+  scroll-behavior: smooth;
+}
+.line {
+  height: 6px;
+  background-color: black;
+  width: 70px;
+  margin: 8px auto;
+}
